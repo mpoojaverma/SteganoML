@@ -53,6 +53,11 @@ and security, as discussed in the paper.
 
 ---
 
+## Research
+We explore whether interpretable, rule-based ML models can provide competitive steganographic performance while offering explainability guarantees absent in deep neural approaches.
+
+---
+
 ## Environment Requirements
 
 This project has been tested and verified on **Python 3.10**.
@@ -62,4 +67,4 @@ with newer Python versions, users are strongly recommended to use
 Python 3.10 for reliable execution.
 
 ---
-
+> This work is under review 
