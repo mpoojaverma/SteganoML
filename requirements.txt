@@ -7,3 +7,5 @@ cryptography
 matplotlib
 scipy
 soundfile
+playsound==1.3.0
+
