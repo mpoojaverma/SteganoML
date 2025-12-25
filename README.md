@@ -1,6 +1,4 @@
 # SteganoML
-Adaptive ML-Driven Audio Steganography for Robust Secure Communication
-
 SteganoML is an adaptive machine learning–driven audio steganography
 framework that improves robustness and imperceptibility by embedding
 encrypted data only into acoustically stable audio frames.
