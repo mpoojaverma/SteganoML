@@ -1,0 +1,9 @@
+numpy
+pandas
+librosa
+scikit-learn
+catboost
+cryptography
+matplotlib
+scipy
+soundfile

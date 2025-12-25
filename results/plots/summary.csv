@@ -1,0 +1,5 @@
+,PSNR_dB,PSNR_dB,BER,BER,NC,NC,SNR_dB,SNR_dB
+,mean,std,mean,std,mean,std,mean,std
+Method,,,,,,,,
+ML-guided LSB,94.694645,2.111787,1e-06,1e-06,1.0,0.0,72.02806,6.82911
+Randomized LSB,94.281848,2.069536,1e-06,2e-06,1.0,0.0,71.61527,6.806894
