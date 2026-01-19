@@ -24,8 +24,7 @@ SteganoML follows a multi-stage adaptive pipeline:
 
 - Audio is segmented into frames and acoustic features are extracted
   (MFCCs, zero-crossing rate, energy, spectral features, etc.).
-- A supervised CatBoost model predicts which frames are suitable for
-  secure data embedding.
+- A supervised CatBoost classifier is trained to predict frame suitability for secure data embedding, with hyperparameters optimized using Optuna.
 - The secret payload is encrypted using AES-256, with keys derived
   using PBKDF2.
 - Adaptive LSB embedding is applied only to ML-selected stable frames,
